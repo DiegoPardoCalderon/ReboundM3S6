@@ -24,19 +24,44 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-6 offset-3">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                 <div class="card  rounded-1 border-0">
                     <div class="card-body">
-                        <h5 class="card-title">Menú</h5>
+                        <h4 class="card-title">Menú</h4>
+                        <p>Disfruta de la mejor comida Italiana</p>
+                        <ul id="listado-menu" class="list-group">
+                            <!-- <li class="list-group-item">An item</li> -->
+                        </ul> 
                     </div>
+
                 </div>
             </div>
         </div> 
         <div class="row mt-5">
-            <div class="col-6 offset-3">
-                <div class="card  rounded-1 border-0">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="card  rounded-1 border-0 mb-5">
                     <div class="card-body">
-                        <h5 class="card-title">Cuenta</h5>
+                        <h4 class="card-title">Cuenta</h4>
+                        <p>Esperamos que disfrute su comida!</p>
+                        <div class="col-8 offset-2">
+                            <table id="total-cuenta" class="table table-bordered w-100" >
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th class="text-end">Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Total</th>
+                                            <th class="text-end" id="total">$0.00</th>
+                                        </tr>
+                                    </tfoot>                
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
